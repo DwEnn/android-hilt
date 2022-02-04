@@ -38,10 +38,8 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class LogsFragment : Fragment() {
 
-    @Inject
-    lateinit var logger: LoggerLocalDataSource
-    @Inject
-    lateinit var dateFormatter: DateFormatter
+    @Inject lateinit var logger: LoggerLocalDataSource
+    @Inject lateinit var dateFormatter: DateFormatter
 
     private lateinit var recyclerView: RecyclerView
 
